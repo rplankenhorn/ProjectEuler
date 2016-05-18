@@ -21,10 +21,6 @@ extension UInt {
 var sum:UInt = 0
 
 for i in 0..<1000000 {
-    if i % 10000 == 0 {
-        print(i)
-    }
-    
     if UInt(i).isPalindron() {
         sum += UInt(i)
     }
